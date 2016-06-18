@@ -1,0 +1,944 @@
+Script iniciado em S�b 18 Jun 2016 15:15:49 BRT
+robertvl@ubuntu:~/libotti.github.io$ ls
+bootstrat      [0m[01;34mcss[0m       Gemfile.lock  index.html  [01;34m_posts[0m          sitemap.xml
+categories.md  feed.xml  humans.txt    [01;34mjs[0m          projetos.html   tags.md
+CNAME          [01;34mfonts[0m     [01;34mimages[0m        [01;34m_layouts[0m    README.md
+_config.yml    Gemfile   [01;34m_includes[0m     LICENSE     [01;35mscreenshot.png[0m
+robertvl@ubuntu:~/libotti.github.io$ bundle exec rake build
+O programa 'bundle' não está instalado no momento. Você pode instalá-lo digitando:
+sudo apt install ruby-bundler
+robertvl@ubuntu:~/libotti.github.io$ bundle exec rake build[Ksudo apt install ruby-bundler
+[sudo] senha para robertvl: 
+Lendo listas de pacotes... 0%Lendo listas de pacotes... 100%Lendo listas de pacotes... Pronto
+Construindo árvore de dependências... 0%Construindo árvore de dependências... 0%Construindo árvore de dependências... 50%Construindo árvore de dependências... 50%Construindo árvore de dependências       
+Lendo informação de estado... 0%  Lendo informação de estado... 0%Lendo informação de estado... Pronto
+The following additional packages will be installed:
+  ruby-molinillo ruby-net-http-persistent ruby-thor
+Os NOVOS pacotes a seguir serão instalados:
+  ruby-bundler ruby-molinillo ruby-net-http-persistent ruby-thor
+0 pacotes atualizados, 4 pacotes novos instalados, 0 a serem removidos e 0 não atualizados.
+É preciso baixar 194 kB de arquivos.
+Depois desta operação, 992 kB adicionais de espaço em disco serão usados.
+Você quer continuar? [S/n] S
+[33m0% [Trabalhando][0m[33m0% [Conectando em br.archive.ubuntu.com (2801:82:80ff:8000::5)][0m[33m0% [Conectando em br.archive.ubuntu.com (2801:82:80ff:8000::5)][0m                                                               Obter:1 http://br.archive.ubuntu.com/ubuntu xenial/universe i386 ruby-molinillo all 0.4.3-1 [12,1 kB]
+[33m                                                               0% [1 ruby-molinillo 0 B/12,1 kB 0%][0m[33m                                    10% [Trabalhando][0m                 Obter:2 http://br.archive.ubuntu.com/ubuntu xenial/universe i386 ruby-net-http-persistent all 2.9.4-1 [15,9 kB]
+[33m15% [2 ruby-net-http-persistent 11,1 kB/15,9 kB 70%][0m[33m                                                    22% [Aguardando por cabeçalhos][0m                                Obter:3 http://br.archive.ubuntu.com/ubuntu xenial/universe i386 ruby-thor all 0.19.1-2 [43,7 kB]
+[33m22% [3 ruby-thor 0 B/43,7 kB 0%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%]                             8.068 B/s 17s[0m[33m                                                                               32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m                                     Obter:3 http://br.archive.ubuntu.com/ubuntu xenial/universe i386 ruby-thor all 0.19.1-2 [43,7 kB]
+[33m32% [3 ruby-thor 24,1 kB/43,7 kB 55%][0m[33m                                     45% [Trabalhando][0m                 Obter:4 http://br.archive.ubuntu.com/ubuntu xenial/universe i386 ruby-bundler all 1.11.2-1 [122 kB]
+[33m45% [4 ruby-bundler 0 B/122 kB 0%][0m[33m                                  100% [Trabalhando][0m                  Baixados 170 kB em 2min 1s (1.396 B/s)
+
+7[0;24r8[1AA seleccionar pacote anteriormente não seleccionado ruby-molinillo.
+(Lendo banco de dados ... (Lendo banco de dados ... 5%(Lendo banco de dados ... 10%(Lendo banco de dados ... 15%(Lendo banco de dados ... 20%(Lendo banco de dados ... 25%(Lendo banco de dados ... 30%(Lendo banco de dados ... 35%(Lendo banco de dados ... 40%(Lendo banco de dados ... 45%(Lendo banco de dados ... 50%(Lendo banco de dados ... 55%(Lendo banco de dados ... 60%(Lendo banco de dados ... 65%(Lendo banco de dados ... 70%(Lendo banco de dados ... 75%(Lendo banco de dados ... 80%(Lendo banco de dados ... 85%(Lendo banco de dados ... 90%(Lendo banco de dados ... 95%(Lendo banco de dados ... 100%(Lendo banco de dados ... 101874 ficheiros e directórios actualmente instalados.)
+A preparar para desempacotar .../ruby-molinillo_0.4.3-1_all.deb ...
+7[25;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[25;0f[42m[30mProgress: [  4%][49m[39m [###.......................................................] 8A descompactar ruby-molinillo (0.4.3-1) ...
+7[25;0f[42m[30mProgress: [  9%][49m[39m [######....................................................] 87[25;0f[42m[30mProgress: [ 14%][49m[39m [#########.................................................] 8A seleccionar pacote anteriormente não seleccionado ruby-net-http-persistent.
+A preparar para desempacotar .../ruby-net-http-persistent_2.9.4-1_all.deb ...
+7[25;0f[42m[30mProgress: [ 19%][49m[39m [############..............................................] 8A descompactar ruby-net-http-persistent (2.9.4-1) ...
+7[25;0f[42m[30mProgress: [ 23%][49m[39m [##############............................................] 87[25;0f[42m[30mProgress: [ 28%][49m[39m [#################.........................................] 8A seleccionar pacote anteriormente não seleccionado ruby-thor.
+A preparar para desempacotar .../ruby-thor_0.19.1-2_all.deb ...
+7[25;0f[42m[30mProgress: [ 33%][49m[39m [####################......................................] 8A descompactar ruby-thor (0.19.1-2) ...
+7[25;0f[42m[30mProgress: [ 38%][49m[39m [#######################...................................] 87[25;0f[42m[30mProgress: [ 42%][49m[39m [#########################.................................] 8A seleccionar pacote anteriormente não seleccionado ruby-bundler.
+A preparar para desempacotar .../ruby-bundler_1.11.2-1_all.deb ...
+7[25;0f[42m[30mProgress: [ 47%][49m[39m [############################..............................] 8A descompactar ruby-bundler (1.11.2-1) ...
+7[25;0f[42m[30mProgress: [ 52%][49m[39m [###############################...........................] 87[25;0f[42m[30mProgress: [ 57%][49m[39m [##################################........................] 8A processar 'triggers' para man-db (2.7.5-1) ...
+Configurando ruby-molinillo (0.4.3-1) ...
+7[25;0f[42m[30mProgress: [ 61%][49m[39m [####################################......................] 87[25;0f[42m[30mProgress: [ 66%][49m[39m [#######################################...................] 8Configurando ruby-net-http-persistent (2.9.4-1) ...
+7[25;0f[42m[30mProgress: [ 71%][49m[39m [##########################################................] 87[25;0f[42m[30mProgress: [ 76%][49m[39m [#############################################.............] 8Configurando ruby-thor (0.19.1-2) ...
+7[25;0f[42m[30mProgress: [ 80%][49m[39m [###############################################...........] 87[25;0f[42m[30mProgress: [ 85%][49m[39m [##################################################........] 8Configurando ruby-bundler (1.11.2-1) ...
+7[25;0f[42m[30mProgress: [ 90%][49m[39m [#####################################################.....] 87[25;0f[42m[30mProgress: [ 95%][49m[39m [########################################################..] 8
+7[0;25r8[1A[Jrobertvl@ubuntu:~/libotti.github.io$ sudo apt install ruby-bundler[7Pbundle exec rake buildls[Ksudo shutdown -h nowls[Kbundle exec rake buildsudo apt install ruby-bundler[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kjekyll serve
+/usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:94:in `block in materialize': Could not find RedCloth-4.2.9 in any of the sources (Bundler::GemNotFound)
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:137:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:182:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:171:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:92:in `setup'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/lib/jekyll/plugin_manager.rb:33:in `require_from_bundler'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/bin/jekyll:9:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+robertvl@ubuntu:~/libotti.github.io$ jekyll build
+/usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:94:in `block in materialize': Could not find RedCloth-4.2.9 in any of the sources (Bundler::GemNotFound)
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:137:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:182:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:171:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:92:in `setup'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/lib/jekyll/plugin_manager.rb:33:in `require_from_bundler'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/bin/jekyll:9:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+robertvl@ubuntu:~/libotti.github.io$ sudo gem install octopress
+Fetching: titlecase-0.1.1.gemFetching: titlecase-0.1.1.gem ( 37%)Fetching: titlecase-0.1.1.gem ( 86%)Fetching: titlecase-0.1.1.gem (100%)Fetching: titlecase-0.1.1.gem (100%)
+Successfully installed titlecase-0.1.1
+Fetching: redcarpet-3.3.4.gemFetching: redcarpet-3.3.4.gem (  4%)Fetching: redcarpet-3.3.4.gem (  8%)Fetching: redcarpet-3.3.4.gem ( 13%)Fetching: redcarpet-3.3.4.gem ( 18%)Fetching: redcarpet-3.3.4.gem ( 22%)Fetching: redcarpet-3.3.4.gem ( 26%)Fetching: redcarpet-3.3.4.gem ( 31%)Fetching: redcarpet-3.3.4.gem ( 36%)Fetching: redcarpet-3.3.4.gem ( 40%)Fetching: redcarpet-3.3.4.gem ( 45%)Fetching: redcarpet-3.3.4.gem ( 49%)Fetching: redcarpet-3.3.4.gem ( 54%)Fetching: redcarpet-3.3.4.gem ( 81%)Fetching: redcarpet-3.3.4.gem (100%)Fetching: redcarpet-3.3.4.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed redcarpet-3.3.4
+Fetching: octopress-hooks-2.6.1.gemFetching: octopress-hooks-2.6.1.gem ( 22%)Fetching: octopress-hooks-2.6.1.gem ( 50%)Fetching: octopress-hooks-2.6.1.gem ( 78%)Fetching: octopress-hooks-2.6.1.gem (100%)Fetching: octopress-hooks-2.6.1.gem (100%)
+Successfully installed octopress-hooks-2.6.1
+Fetching: octopress-escape-code-2.1.1.gemFetching: octopress-escape-code-2.1.1.gem ( 26%)Fetching: octopress-escape-code-2.1.1.gem ( 59%)Fetching: octopress-escape-code-2.1.1.gem ( 93%)Fetching: octopress-escape-code-2.1.1.gem (100%)Fetching: octopress-escape-code-2.1.1.gem (100%)
+Successfully installed octopress-escape-code-2.1.1
+Fetching: octopress-deploy-1.3.0.gemFetching: octopress-deploy-1.3.0.gem ( 13%)Fetching: octopress-deploy-1.3.0.gem ( 30%)Fetching: octopress-deploy-1.3.0.gem ( 47%)Fetching: octopress-deploy-1.3.0.gem ( 64%)Fetching: octopress-deploy-1.3.0.gem ( 80%)Fetching: octopress-deploy-1.3.0.gem ( 96%)Fetching: octopress-deploy-1.3.0.gem (100%)Fetching: octopress-deploy-1.3.0.gem (100%)
+Successfully installed octopress-deploy-1.3.0
+Fetching: octopress-3.0.11.gemFetching: octopress-3.0.11.gem (  8%)Fetching: octopress-3.0.11.gem ( 17%)Fetching: octopress-3.0.11.gem ( 27%)Fetching: octopress-3.0.11.gem ( 37%)Fetching: octopress-3.0.11.gem ( 46%)Fetching: octopress-3.0.11.gem ( 55%)Fetching: octopress-3.0.11.gem ( 65%)Fetching: octopress-3.0.11.gem ( 74%)Fetching: octopress-3.0.11.gem ( 84%)Fetching: octopress-3.0.11.gem ( 94%)Fetching: octopress-3.0.11.gem (100%)Fetching: octopress-3.0.11.gem (100%)
+Successfully installed octopress-3.0.11
+Parsing documentation for titlecase-0.1.1
+Installing ri documentation for titlecase-0.1.1
+Parsing documentation for redcarpet-3.3.4
+Installing ri documentation for redcarpet-3.3.4
+Parsing documentation for octopress-hooks-2.6.1
+Installing ri documentation for octopress-hooks-2.6.1
+Parsing documentation for octopress-escape-code-2.1.1
+Installing ri documentation for octopress-escape-code-2.1.1
+Parsing documentation for octopress-deploy-1.3.0
+Installing ri documentation for octopress-deploy-1.3.0
+Parsing documentation for octopress-3.0.11
+Installing ri documentation for octopress-3.0.11
+Done installing documentation for titlecase, redcarpet, octopress-hooks, octopress-escape-code, octopress-deploy, octopress after 1 seconds
+6 gems installed
+robertvl@ubuntu:~/libotti.github.io$ bundle
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+[32mInstalling RedCloth 4.2.9 with native extensions[0m
+[32mInstalling i18n 0.7.0[0m
+Using json 1.8.3
+Using minitest 5.8.4
+[32mInstalling thread_safe 0.3.5[0m
+[32mInstalling addressable 2.3.8[0m
+[32mInstalling coffee-script-source 1.10.0[0m
+[32mInstalling execjs 2.6.0[0m
+Using colorator 0.1
+Using ffi 1.9.10
+[32mInstalling multipart-post 2.0.0[0m
+[32mInstalling gemoji 2.1.0[0m
+[32mInstalling net-dns 0.8.0[0m
+[32mInstalling public_suffix 1.5.3[0m
+[32mInstalling sass 3.4.21[0m
+Using rb-fsevent 0.9.7
+[32mInstalling kramdown 1.9.0[0m
+Using liquid 3.0.6
+[32mInstalling mercenary 0.3.5[0m
+[32mInstalling rouge 1.10.1[0m
+Using safe_yaml 1.0.4
+[32mInstalling jekyll-feed 0.3.1[0m
+[32mInstalling mini_portile2 2.0.0[0m
+[32mInstalling jekyll-paginate 1.1.0[0m
+[32mInstalling jekyll-sitemap 0.10.0[0m
+[32mInstalling rdiscount 2.1.8 with native extensions[0m
+[32mInstalling redcarpet 3.3.3 with native extensions[0m
+[32mInstalling terminal-table 1.5.2[0m
+Using bundler 1.11.2
+[32mInstalling jekyll-textile-converter 0.1.0[0m
+[32mInstalling tzinfo 1.2.2[0m
+[32mInstalling coffee-script 2.4.1[0m
+[32mInstalling ethon 0.8.1[0m
+Using rb-inotify 0.9.7
+[32mInstalling faraday 0.9.2[0m
+[32mInstalling jekyll-sass-converter 1.3.0[0m
+[32mInstalling nokogiri 1.6.7.2 with native extensions[0m
+
+[33mGem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    current directory: /tmp/bundler20160618-23063-33b916nokogiri-1.6.7.2/gems/nokogiri-1.6.7.2/ext/nokogiri
+/usr/bin/ruby2.3 -r ./siteconf20160618-23063-1gsyzp1.rb extconf.rb
+checking if the C compiler accepts ... yes
+Building nokogiri using packaged libraries.
+Using mini_portile version 2.0.0
+checking for gzdopen() in -lz... no
+zlib is missing; necessary for building libxml2
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/$(RUBY_BASE_NAME)2.3
+	--help
+	--clean
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--enable-cross-build
+	--disable-cross-build
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /tmp/bundler20160618-23063-33b916nokogiri-1.6.7.2/extensions/x86-linux/2.3.0/nokogiri-1.6.7.2/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /tmp/bundler20160618-23063-33b916nokogiri-1.6.7.2/gems/nokogiri-1.6.7.2 for inspection.
+Results logged to /tmp/bundler20160618-23063-33b916nokogiri-1.6.7.2/extensions/x86-linux/2.3.0/nokogiri-1.6.7.2/gem_make.out
+[0m[32mInstalling activesupport 4.2.5.1[0m
+[32mInstalling jekyll-coffeescript 1.0.1[0m
+[32mInstalling typhoeus 0.8.0[0m
+[32mInstalling listen 3.0.5[0m
+[32mInstalling sawyer 0.6.0[0m
+[31mAn error occurred while installing nokogiri (1.6.7.2), and Bundler cannot
+continue.
+Make sure that `gem install nokogiri -v '1.6.7.2'` succeeds before bundling.[0m
+robertvl@ubuntu:~/libotti.github.io$ bundlesudo gem install octopress[14Pjekyll build
+WARN: Unresolved specs during Gem::Specification.reset:
+      rouge (~> 1.7)
+      listen (< 3.1, ~> 3.0)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:94:in `block in materialize': Could not find github-pages-health-check-0.6.0 in any of the sources (Bundler::GemNotFound)
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:137:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:182:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:171:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:92:in `setup'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/lib/jekyll/plugin_manager.rb:33:in `require_from_bundler'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/bin/jekyll:9:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+robertvl@ubuntu:~/libotti.github.io$ jekyll build[1@s[1@u[1@d[1@o[1@ 
+WARN: Unresolved specs during Gem::Specification.reset:
+      rouge (~> 1.7)
+      listen (< 3.1, ~> 3.0)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:94:in `block in materialize': Could not find github-pages-health-check-0.6.0 in any of the sources (Bundler::GemNotFound)
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:137:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:182:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:171:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:92:in `setup'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/lib/jekyll/plugin_manager.rb:33:in `require_from_bundler'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/bin/jekyll:9:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+robertvl@ubuntu:~/libotti.github.io$ sudo jekyll build[5P[C[C[C[C[C[C[C[C[C[C[C[C[6Pbundlesudo gem install octopress[K[K[K[K[K[K[K[K[Kbundler
+Fetching: bundler-1.12.5.gemFetching: bundler-1.12.5.gem (  1%)Fetching: bundler-1.12.5.gem (  2%)Fetching: bundler-1.12.5.gem (  3%)Fetching: bundler-1.12.5.gem (  4%)Fetching: bundler-1.12.5.gem (  5%)Fetching: bundler-1.12.5.gem (  6%)Fetching: bundler-1.12.5.gem (  7%)Fetching: bundler-1.12.5.gem (  8%)Fetching: bundler-1.12.5.gem (  9%)Fetching: bundler-1.12.5.gem ( 10%)Fetching: bundler-1.12.5.gem ( 11%)Fetching: bundler-1.12.5.gem ( 12%)Fetching: bundler-1.12.5.gem ( 18%)Fetching: bundler-1.12.5.gem ( 24%)Fetching: bundler-1.12.5.gem ( 29%)Fetching: bundler-1.12.5.gem ( 35%)Fetching: bundler-1.12.5.gem ( 41%)Fetching: bundler-1.12.5.gem ( 47%)Fetching: bundler-1.12.5.gem ( 53%)Fetching: bundler-1.12.5.gem ( 59%)Fetching: bundler-1.12.5.gem ( 65%)Fetching: bundler-1.12.5.gem ( 70%)Fetching: bundler-1.12.5.gem ( 76%)Fetching: bundler-1.12.5.gem ( 82%)Fetching: bundler-1.12.5.gem ( 88%)Fetching: bundler-1.12.5.gem ( 94%)Fetching: bundler-1.12.5.gem (100%)Fetching: bundler-1.12.5.gem (100%)
+Successfully installed bundler-1.12.5
+Parsing documentation for bundler-1.12.5
+Installing ri documentation for bundler-1.12.5
+Done installing documentation for bundler after 6 seconds
+1 gem installed
+robertvl@ubuntu:~/libotti.github.io$ sudo gem install bundler[7Pjekyll build
+WARN: Unresolved specs during Gem::Specification.reset:
+      rouge (~> 1.7)
+      listen (< 3.1, ~> 3.0)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:94:in `block in materialize': Could not find github-pages-health-check-0.6.0 in any of the sources (Bundler::GemNotFound)
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:137:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:182:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:171:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:92:in `setup'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/lib/jekyll/plugin_manager.rb:33:in `require_from_bundler'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/bin/jekyll:9:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+robertvl@ubuntu:~/libotti.github.io$ sudo jekyll buildgem install bundler[K[K[K[K[Kn[K[K[Kgithub-pages
+Fetching: listen-3.0.6.gemFetching: listen-3.0.6.gem (  8%)Fetching: listen-3.0.6.gem ( 19%)Fetching: listen-3.0.6.gem ( 29%)Fetching: listen-3.0.6.gem ( 39%)Fetching: listen-3.0.6.gem ( 50%)Fetching: listen-3.0.6.gem ( 59%)Fetching: listen-3.0.6.gem ( 70%)Fetching: listen-3.0.6.gem ( 80%)Fetching: listen-3.0.6.gem ( 90%)Fetching: listen-3.0.6.gem (100%)Fetching: listen-3.0.6.gem (100%)
+Successfully installed listen-3.0.6
+Fetching: pkg-config-1.1.7.gemFetching: pkg-config-1.1.7.gem ( 11%)Fetching: pkg-config-1.1.7.gem ( 25%)Fetching: pkg-config-1.1.7.gem ( 39%)Fetching: pkg-config-1.1.7.gem ( 54%)Fetching: pkg-config-1.1.7.gem ( 68%)Fetching: pkg-config-1.1.7.gem ( 81%)Fetching: pkg-config-1.1.7.gem ( 95%)Fetching: pkg-config-1.1.7.gem (100%)Fetching: pkg-config-1.1.7.gem (100%)
+Successfully installed pkg-config-1.1.7
+Fetching: mini_portile2-2.1.0.gemFetching: mini_portile2-2.1.0.gem ( 12%)Fetching: mini_portile2-2.1.0.gem ( 27%)Fetching: mini_portile2-2.1.0.gem ( 43%)Fetching: mini_portile2-2.1.0.gem ( 58%)Fetching: mini_portile2-2.1.0.gem ( 74%)Fetching: mini_portile2-2.1.0.gem ( 88%)Fetching: mini_portile2-2.1.0.gem (100%)Fetching: mini_portile2-2.1.0.gem (100%)
+Successfully installed mini_portile2-2.1.0
+Fetching: nokogiri-1.6.8.gemFetching: nokogiri-1.6.8.gem (  1%)Fetching: nokogiri-1.6.8.gem (  2%)Fetching: nokogiri-1.6.8.gem (  3%)Fetching: nokogiri-1.6.8.gem (  4%)Fetching: nokogiri-1.6.8.gem (  5%)Fetching: nokogiri-1.6.8.gem (  6%)Fetching: nokogiri-1.6.8.gem (  7%)Fetching: nokogiri-1.6.8.gem (  8%)Fetching: nokogiri-1.6.8.gem (  9%)Fetching: nokogiri-1.6.8.gem ( 10%)Fetching: nokogiri-1.6.8.gem ( 11%)Fetching: nokogiri-1.6.8.gem ( 12%)Fetching: nokogiri-1.6.8.gem ( 13%)Fetching: nokogiri-1.6.8.gem ( 14%)Fetching: nokogiri-1.6.8.gem ( 15%)Fetching: nokogiri-1.6.8.gem ( 16%)Fetching: nokogiri-1.6.8.gem ( 17%)Fetching: nokogiri-1.6.8.gem ( 18%)Fetching: nokogiri-1.6.8.gem ( 19%)Fetching: nokogiri-1.6.8.gem ( 20%)Fetching: nokogiri-1.6.8.gem ( 21%)Fetching: nokogiri-1.6.8.gem ( 22%)Fetching: nokogiri-1.6.8.gem ( 23%)Fetching: nokogiri-1.6.8.gem ( 24%)Fetching: nokogiri-1.6.8.gem ( 25%)Fetching: nokogiri-1.6.8.gem ( 26%)Fetching: nokogiri-1.6.8.gem ( 27%)Fetching: nokogiri-1.6.8.gem ( 28%)Fetching: nokogiri-1.6.8.gem ( 29%)Fetching: nokogiri-1.6.8.gem ( 30%)Fetching: nokogiri-1.6.8.gem ( 31%)Fetching: nokogiri-1.6.8.gem ( 32%)Fetching: nokogiri-1.6.8.gem ( 33%)Fetching: nokogiri-1.6.8.gem ( 34%)Fetching: nokogiri-1.6.8.gem ( 35%)Fetching: nokogiri-1.6.8.gem ( 36%)Fetching: nokogiri-1.6.8.gem ( 37%)Fetching: nokogiri-1.6.8.gem ( 38%)Fetching: nokogiri-1.6.8.gem ( 39%)Fetching: nokogiri-1.6.8.gem ( 40%)Fetching: nokogiri-1.6.8.gem ( 41%)Fetching: nokogiri-1.6.8.gem ( 42%)Fetching: nokogiri-1.6.8.gem ( 43%)Fetching: nokogiri-1.6.8.gem ( 44%)Fetching: nokogiri-1.6.8.gem ( 45%)Fetching: nokogiri-1.6.8.gem ( 46%)Fetching: nokogiri-1.6.8.gem ( 47%)Fetching: nokogiri-1.6.8.gem ( 48%)Fetching: nokogiri-1.6.8.gem ( 49%)Fetching: nokogiri-1.6.8.gem ( 50%)Fetching: nokogiri-1.6.8.gem ( 51%)Fetching: nokogiri-1.6.8.gem ( 52%)Fetching: nokogiri-1.6.8.gem ( 53%)Fetching: nokogiri-1.6.8.gem ( 54%)Fetching: nokogiri-1.6.8.gem ( 55%)Fetching: nokogiri-1.6.8.gem ( 56%)Fetching: nokogiri-1.6.8.gem ( 57%)Fetching: nokogiri-1.6.8.gem ( 58%)Fetching: nokogiri-1.6.8.gem ( 59%)Fetching: nokogiri-1.6.8.gem ( 60%)Fetching: nokogiri-1.6.8.gem ( 61%)Fetching: nokogiri-1.6.8.gem ( 62%)Fetching: nokogiri-1.6.8.gem ( 63%)Fetching: nokogiri-1.6.8.gem ( 64%)Fetching: nokogiri-1.6.8.gem ( 65%)Fetching: nokogiri-1.6.8.gem ( 66%)Fetching: nokogiri-1.6.8.gem ( 67%)Fetching: nokogiri-1.6.8.gem ( 68%)Fetching: nokogiri-1.6.8.gem ( 69%)Fetching: nokogiri-1.6.8.gem ( 70%)Fetching: nokogiri-1.6.8.gem ( 71%)Fetching: nokogiri-1.6.8.gem ( 72%)Fetching: nokogiri-1.6.8.gem ( 73%)Fetching: nokogiri-1.6.8.gem ( 74%)Fetching: nokogiri-1.6.8.gem ( 75%)Fetching: nokogiri-1.6.8.gem ( 76%)Fetching: nokogiri-1.6.8.gem ( 77%)Fetching: nokogiri-1.6.8.gem ( 78%)Fetching: nokogiri-1.6.8.gem ( 79%)Fetching: nokogiri-1.6.8.gem ( 80%)Fetching: nokogiri-1.6.8.gem ( 81%)Fetching: nokogiri-1.6.8.gem ( 82%)Fetching: nokogiri-1.6.8.gem ( 83%)Fetching: nokogiri-1.6.8.gem ( 84%)Fetching: nokogiri-1.6.8.gem ( 85%)Fetching: nokogiri-1.6.8.gem ( 86%)Fetching: nokogiri-1.6.8.gem ( 87%)Fetching: nokogiri-1.6.8.gem ( 88%)Fetching: nokogiri-1.6.8.gem ( 89%)Fetching: nokogiri-1.6.8.gem ( 90%)Fetching: nokogiri-1.6.8.gem ( 91%)Fetching: nokogiri-1.6.8.gem ( 92%)Fetching: nokogiri-1.6.8.gem ( 93%)Fetching: nokogiri-1.6.8.gem ( 94%)Fetching: nokogiri-1.6.8.gem ( 95%)Fetching: nokogiri-1.6.8.gem ( 96%)Fetching: nokogiri-1.6.8.gem ( 97%)Fetching: nokogiri-1.6.8.gem ( 98%)Fetching: nokogiri-1.6.8.gem ( 99%)Fetching: nokogiri-1.6.8.gem (100%)Fetching: nokogiri-1.6.8.gem (100%)
+Building native extensions.  This could take a while...
+ERROR:  Error installing github-pages:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /var/lib/gems/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri
+/usr/bin/ruby2.3 -r ./siteconf20160618-23845-37tpud.rb extconf.rb
+Using pkg-config version 1.1.7
+checking if the C compiler accepts ... yes
+Building nokogiri using packaged libraries.
+Using mini_portile version 2.1.0
+checking for gzdopen() in -lz... no
+zlib is missing; necessary for building libxml2
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/$(RUBY_BASE_NAME)2.3
+	--help
+	--clean
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--enable-cross-build
+	--disable-cross-build
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /var/lib/gems/2.3.0/extensions/x86-linux/2.3.0/nokogiri-1.6.8/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /var/lib/gems/2.3.0/gems/nokogiri-1.6.8 for inspection.
+Results logged to /var/lib/gems/2.3.0/extensions/x86-linux/2.3.0/nokogiri-1.6.8/gem_make.out
+robertvl@ubuntu:~/libotti.github.io$ sudo gem install github-pages[K[K[K[K[K[K[K[K[K[K[K[Knokogiri
+Building native extensions.  This could take a while...
+ERROR:  Error installing nokogiri:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /var/lib/gems/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri
+/usr/bin/ruby2.3 -r ./siteconf20160618-23867-13wtus.rb extconf.rb
+Using pkg-config version 1.1.7
+checking if the C compiler accepts ... yes
+Building nokogiri using packaged libraries.
+Using mini_portile version 2.1.0
+checking for gzdopen() in -lz... no
+zlib is missing; necessary for building libxml2
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/$(RUBY_BASE_NAME)2.3
+	--help
+	--clean
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--enable-cross-build
+	--disable-cross-build
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /var/lib/gems/2.3.0/extensions/x86-linux/2.3.0/nokogiri-1.6.8/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /var/lib/gems/2.3.0/gems/nokogiri-1.6.8 for inspection.
+Results logged to /var/lib/gems/2.3.0/extensions/x86-linux/2.3.0/nokogiri-1.6.8/gem_make.out
+robertvl@ubuntu:~/libotti.github.io$ cd ..
+robertvl@ubuntu:~$ cd 
+.cache/            jekyll/            libotti.github.io/ .nano/
+robertvl@ubuntu:~$ cd jekyll/
+robertvl@ubuntu:~/jekyll$ ls
+[0m[01;34mbenchmark[0m         [01;34mfeatures[0m          jekyll.gemspec  [01;34mrake[0m             [01;34mscript[0m
+CONDUCT.markdown  Gemfile           [01;34mlib[0m             Rakefile         [01;34msite[0m
+[01;34mexe[0m               History.markdown  LICENSE         README.markdown  [01;34mtest[0m
+robertvl@ubuntu:~/jekyll$ cd [K[K[Krake
+/usr/bin/ruby2.3 -I"lib:lib:test"  "/usr/lib/ruby/vendor_ruby/rake/rake_test_loader.rb" "test/**/test_*.rb" Cucumber rake task is not available. Be sure to install cucumber as a gem or plugin
+
+# -------------------------------------------------------------
+# SPECS AND TESTS ARE RUNNING WITH WARNINGS OFF.
+# SEE: https://github.com/Shopify/liquid/issues/730
+# SEE: https://github.com/jekyll/jekyll/issues/4719
+# -------------------------------------------------------------
+/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- simplecov (LoadError)
+	from /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/robertvl/jekyll/test/simplecov_custom_profile.rb:1:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/robertvl/jekyll/test/helper.rb:16:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/robertvl/jekyll/test/test_ansi.rb:1:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/lib/ruby/vendor_ruby/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+	from /usr/lib/ruby/vendor_ruby/rake/rake_test_loader.rb:9:in `each'
+	from /usr/lib/ruby/vendor_ruby/rake/rake_test_loader.rb:9:in `block in <main>'
+	from /usr/lib/ruby/vendor_ruby/rake/rake_test_loader.rb:4:in `select'
+	from /usr/lib/ruby/vendor_ruby/rake/rake_test_loader.rb:4:in `<main>'
+rake aborted!
+Command failed with status (1): [ruby -I"lib:lib:test"  "/usr/lib/ruby/vendor_ruby/rake/rake_test_loader.rb" "test/**/test_*.rb" ]
+
+Tasks: TOP => default => test
+(See full trace by running task with --trace)
+robertvl@ubuntu:~/jekyll$ rake[2Plscd jekyll/..[Ksudo gem install nokogiricd ..[Kjekyll/..[Ksudo gem install nokogirigithub-pages[12Pjekyll build
+WARN: Unresolved specs during Gem::Specification.reset:
+      rouge (~> 1.7)
+      listen (< 3.1, ~> 3.0)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/lib/ruby/vendor_ruby/bundler/resolver.rb:354:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'rake (~> 11.0)' in any of the gem sources listed in your Gemfile or available on this machine. (Bundler::GemNotFound)
+	from /usr/lib/ruby/vendor_ruby/bundler/resolver.rb:330:in `each'
+	from /usr/lib/ruby/vendor_ruby/bundler/resolver.rb:330:in `verify_gemfile_dependencies_are_found!'
+	from /usr/lib/ruby/vendor_ruby/bundler/resolver.rb:199:in `start'
+	from /usr/lib/ruby/vendor_ruby/bundler/resolver.rb:183:in `resolve'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:198:in `resolve'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:137:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:182:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:171:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:92:in `setup'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/lib/jekyll/plugin_manager.rb:33:in `require_from_bundler'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/bin/jekyll:9:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+robertvl@ubuntu:~/jekyll$ sudo jekyll buildrake[K[2Plscd jekyll/ls[Krakesudo jekyll build[Ksudo gem isn[K[Knstall execjs
+Fetching: execjs-2.7.0.gemFetching: execjs-2.7.0.gem ( 12%)Fetching: execjs-2.7.0.gem ( 28%)Fetching: execjs-2.7.0.gem ( 44%)Fetching: execjs-2.7.0.gem ( 60%)Fetching: execjs-2.7.0.gem ( 76%)Fetching: execjs-2.7.0.gem ( 91%)Fetching: execjs-2.7.0.gem (100%)Fetching: execjs-2.7.0.gem (100%)
+Successfully installed execjs-2.7.0
+Parsing documentation for execjs-2.7.0
+Installing ri documentation for execjs-2.7.0
+Done installing documentation for execjs after 0 seconds
+1 gem installed
+robertvl@ubuntu:~/jekyll$ cd sudo gem install execjs[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+robertvl@ubuntu:~$ cd 
+.cache/            jekyll/            libotti.github.io/ .nano/
+robertvl@ubuntu:~$ cd libotti.github.io/
+robertvl@ubuntu:~/libotti.github.io$ cd libotti.github.io/..[Ksudo gem install execjs[6Pjekyll build
+WARN: Unresolved specs during Gem::Specification.reset:
+      rouge (~> 1.7)
+      listen (< 3.1, ~> 3.0)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:94:in `block in materialize': Could not find github-pages-health-check-0.6.0 in any of the sources (Bundler::GemNotFound)
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:87:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:137:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:182:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:171:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:92:in `setup'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/lib/jekyll/plugin_manager.rb:33:in `require_from_bundler'
+	from /var/lib/gems/2.3.0/gems/jekyll-3.1.6/bin/jekyll:9:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+robertvl@ubuntu:~/libotti.github.io$ cd ..
+robertvl@ubuntu:~$ ls
+[0m[01;34mjekyll[0m  [01;34mlibotti.github.io[0m
+robertvl@ubuntu:~$ cd [K[K[Kgit clone git://github.com/imathis/octopress.gi octopress
+Cloning into 'octopress'...
+fatal: remote error: 
+  Repository not found.
+robertvl@ubuntu:~$ git clone git://github.com/imathis/octopress.gi octopress[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct octopress
+Cloning into 'octopress'...
+remote: Counting objects: 10801, done.[K
+remote: Compressing objects:  50% (1/2)   [Kremote: Compressing objects: 100% (2/2)   [Kremote: Compressing objects: 100% (2/2), done.[K
+Receiving objects:   0% (1/10801)   Receiving objects:   1% (109/10801)   Receiving objects:   2% (217/10801)   Receiving objects:   3% (325/10801)   Receiving objects:   4% (433/10801)   Receiving objects:   5% (541/10801)   Receiving objects:   6% (649/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:   7% (757/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:   8% (865/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:   9% (973/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  10% (1081/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  11% (1189/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  12% (1297/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  13% (1405/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  13% (1412/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  14% (1513/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  15% (1621/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  16% (1729/10801), 116.00 KiB | 181.00 KiB/s   Receiving objects:  17% (1837/10801), 348.01 KiB | 247.00 KiB/s   Receiving objects:  18% (1945/10801), 348.01 KiB | 247.00 KiB/s   Receiving objects:  19% (2053/10801), 348.01 KiB | 247.00 KiB/s   Receiving objects:  20% (2161/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  21% (2269/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  21% (2327/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  22% (2377/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  23% (2485/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  24% (2593/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  25% (2701/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  26% (2809/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  27% (2917/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  28% (3025/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  29% (3133/10801), 628.01 KiB | 322.00 KiB/s   Receiving objects:  30% (3241/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  31% (3349/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  32% (3457/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  33% (3565/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  34% (3673/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  35% (3781/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  36% (3889/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  37% (3997/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  38% (4105/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  39% (4213/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  40% (4321/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  41% (4429/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  42% (4537/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  43% (4645/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  44% (4753/10801), 1004.01 KiB | 402.00 KiB/s   Receiving objects:  44% (4848/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  45% (4861/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  46% (4969/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  47% (5077/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  48% (5185/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  49% (5293/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  50% (5401/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  51% (5509/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  52% (5617/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  53% (5725/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  54% (5833/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  55% (5941/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  56% (6049/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  57% (6157/10801), 1.35 MiB | 457.00 KiB/s   Receiving objects:  58% (6265/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  59% (6373/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  60% (6481/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  61% (6589/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  62% (6697/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  63% (6805/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  64% (6913/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  65% (7021/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  66% (7129/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  67% (7237/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  68% (7345/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  69% (7453/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  70% (7561/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  71% (7669/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  72% (7777/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  73% (7885/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  74% (7993/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  75% (8101/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  76% (8209/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  77% (8317/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  78% (8425/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  79% (8533/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  80% (8641/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  81% (8749/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  81% (8849/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  82% (8857/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  83% (8965/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  84% (9073/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  85% (9181/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  86% (9289/10801), 1.86 MiB | 531.00 KiB/s   Receiving objects:  87% (9397/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  88% (9505/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  89% (9613/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  90% (9721/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  91% (9829/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  92% (9937/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  93% (10045/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  94% (10153/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  95% (10261/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  96% (10369/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  97% (10477/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  98% (10585/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects:  99% (10693/10801), 2.43 MiB | 610.00 KiB/s   remote: Total 10801 (delta 0), reused 0 (delta 0), pack-reused 10799[K
+Receiving objects: 100% (10801/10801), 2.43 MiB | 610.00 KiB/s   Receiving objects: 100% (10801/10801), 2.80 MiB | 610.00 KiB/s, done.
+Resolving deltas:   0% (0/5265)   Resolving deltas:   1% (53/5265)   Resolving deltas:   2% (108/5265)   Resolving deltas:   3% (159/5265)   Resolving deltas:   4% (222/5265)   Resolving deltas:   5% (265/5265)   Resolving deltas:   6% (321/5265)   Resolving deltas:   7% (374/5265)   Resolving deltas:   8% (431/5265)   Resolving deltas:   9% (513/5265)   Resolving deltas:  10% (550/5265)   Resolving deltas:  11% (583/5265)   Resolving deltas:  12% (633/5265)   Resolving deltas:  13% (690/5265)   Resolving deltas:  14% (746/5265)   Resolving deltas:  15% (793/5265)   Resolving deltas:  16% (846/5265)   Resolving deltas:  17% (904/5265)   Resolving deltas:  18% (957/5265)   Resolving deltas:  19% (1014/5265)   Resolving deltas:  20% (1063/5265)   Resolving deltas:  21% (1121/5265)   Resolving deltas:  22% (1179/5265)   Resolving deltas:  23% (1211/5265)   Resolving deltas:  24% (1269/5265)   Resolving deltas:  25% (1322/5265)   Resolving deltas:  26% (1421/5265)   Resolving deltas:  27% (1423/5265)   Resolving deltas:  28% (1477/5265)   Resolving deltas:  29% (1536/5265)   Resolving deltas:  30% (1615/5265)   Resolving deltas:  31% (1638/5265)   Resolving deltas:  32% (1685/5265)   Resolving deltas:  33% (1744/5265)   Resolving deltas:  34% (1804/5265)   Resolving deltas:  36% (1941/5265)   Resolving deltas:  37% (1968/5265)   Resolving deltas:  38% (2014/5265)   Resolving deltas:  39% (2062/5265)   Resolving deltas:  40% (2109/5265)   Resolving deltas:  41% (2159/5265)   Resolving deltas:  42% (2212/5265)   Resolving deltas:  43% (2269/5265)   Resolving deltas:  44% (2322/5265)   Resolving deltas:  45% (2374/5265)   Resolving deltas:  46% (2422/5265)   Resolving deltas:  47% (2475/5265)   Resolving deltas:  48% (2536/5265)   Resolving deltas:  49% (2580/5265)   Resolving deltas:  50% (2637/5265)   Resolving deltas:  51% (2693/5265)   Resolving deltas:  52% (2739/5265)   Resolving deltas:  53% (2840/5265)   Resolving deltas:  54% (2852/5265)   Resolving deltas:  55% (2897/5265)   Resolving deltas:  56% (2953/5265)   Resolving deltas:  59% (3158/5265)   Resolving deltas:  60% (3171/5265)   Resolving deltas:  61% (3227/5265)   Resolving deltas:  62% (3265/5265)   Resolving deltas:  63% (3320/5265)   Resolving deltas:  64% (3371/5265)   Resolving deltas:  65% (3449/5265)   Resolving deltas:  66% (3494/5265)   Resolving deltas:  67% (3528/5265)   Resolving deltas:  68% (3581/5265)   Resolving deltas:  69% (3633/5265)   Resolving deltas:  70% (3686/5265)   Resolving deltas:  71% (3742/5265)   Resolving deltas:  72% (3791/5265)   Resolving deltas:  73% (3846/5265)   Resolving deltas:  74% (3897/5265)   Resolving deltas:  75% (3971/5265)   Resolving deltas:  77% (4056/5265)   Resolving deltas:  78% (4107/5265)   Resolving deltas:  79% (4185/5265)   Resolving deltas:  80% (4222/5265)   Resolving deltas:  81% (4268/5265)   Resolving deltas:  82% (4322/5265)   Resolving deltas:  83% (4374/5265)   Resolving deltas:  84% (4429/5265)   Resolving deltas:  85% (4494/5265)   Resolving deltas:  86% (4528/5265)   Resolving deltas:  87% (4592/5265)   Resolving deltas:  88% (4639/5265)   Resolving deltas:  89% (4686/5265)   Resolving deltas:  90% (4752/5265)   Resolving deltas:  91% (4792/5265)   Resolving deltas:  92% (4850/5265)   Resolving deltas:  93% (4915/5265)   Resolving deltas:  95% (5047/5265)   Resolving deltas:  96% (5057/5265)   Resolving deltas:  97% (5125/5265)   Resolving deltas:  98% (5179/5265)   Resolving deltas:  99% (5213/5265)   Resolving deltas: 100% (5265/5265)   Resolving deltas: 100% (5265/5265), done.
+Checking connectivity... done.
+robertvl@ubuntu:~$ cd octopress
+robertvl@ubuntu:~/octopress$ ls
+CHANGELOG.markdown  config.ru    Gemfile  Rakefile
+config.rb           _config.yml  [0m[01;34mplugins[0m  README.markdown
+robertvl@ubuntu:~/octopress$ gem install bundler
+Fetching: bundler-1.12.5.gemFetching: bundler-1.12.5.gem (  1%)Fetching: bundler-1.12.5.gem (  2%)Fetching: bundler-1.12.5.gem (  3%)Fetching: bundler-1.12.5.gem (  4%)Fetching: bundler-1.12.5.gem (  5%)Fetching: bundler-1.12.5.gem (  6%)Fetching: bundler-1.12.5.gem (  7%)Fetching: bundler-1.12.5.gem (  8%)Fetching: bundler-1.12.5.gem (  9%)Fetching: bundler-1.12.5.gem ( 10%)Fetching: bundler-1.12.5.gem ( 11%)Fetching: bundler-1.12.5.gem ( 12%)Fetching: bundler-1.12.5.gem ( 18%)Fetching: bundler-1.12.5.gem ( 24%)Fetching: bundler-1.12.5.gem ( 29%)Fetching: bundler-1.12.5.gem ( 35%)Fetching: bundler-1.12.5.gem ( 41%)Fetching: bundler-1.12.5.gem ( 47%)Fetching: bundler-1.12.5.gem ( 53%)Fetching: bundler-1.12.5.gem ( 59%)Fetching: bundler-1.12.5.gem ( 65%)Fetching: bundler-1.12.5.gem ( 70%)Fetching: bundler-1.12.5.gem ( 76%)Fetching: bundler-1.12.5.gem ( 82%)Fetching: bundler-1.12.5.gem ( 88%)Fetching: bundler-1.12.5.gem ( 94%)Fetching: bundler-1.12.5.gem (100%)Fetching: bundler-1.12.5.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /var/lib/gems/2.3.0 directory.
+robertvl@ubuntu:~/octopress$ gem install bundler[1@s[1@u[1@d[1@o[1@ 
+Successfully installed bundler-1.12.5
+Parsing documentation for bundler-1.12.5
+Done installing documentation for bundler after 5 seconds
+1 gem installed
+robertvl@ubuntu:~/octopress$ sudo rbenv rehash
+sudo: rbenv: comando não encontrado
+robertvl@ubuntu:~/octopress$ sudo rbenv rehashgem install bundler[7Prbenv rehash[C[C[1P[1P[1P[1P[1P
+O programa 'rbenv' não está instalado no momento. Você pode instalá-lo digitando:
+sudo apt install rbenv
+robertvl@ubuntu:~/octopress$ apt [K-get install rbenv
+E: Não foi possível abrir arquivo de trava /var/lib/dpkg/lock - open (13: Permissão negada)
+E: Não foi possível criar acesso exclusivo ao directório de administração (/var/lib/dpkg/), é root?
+robertvl@ubuntu:~/octopress$ apt-get install rbenv[1@s[1@u[1@d[1@o[1@ 
+Lendo listas de pacotes... 0%Lendo listas de pacotes... 100%Lendo listas de pacotes... Pronto
+Construindo árvore de dependências... 0%Construindo árvore de dependências... 0%Construindo árvore de dependências... 50%Construindo árvore de dependências... 50%Construindo árvore de dependências       
+Lendo informação de estado... 0%  Lendo informação de estado... 0%Lendo informação de estado... Pronto
+Os NOVOS pacotes a seguir serão instalados:
+  rbenv
+0 pacotes atualizados, 1 pacotes novos instalados, 0 a serem removidos e 0 não atualizados.
+É preciso baixar 22,1 kB de arquivos.
+Depois desta operação, 93,2 kB adicionais de espaço em disco serão usados.
+0% [Trabalhando]                Obter:1 http://br.archive.ubuntu.com/ubuntu xenial/universe i386 rbenv all 0.4.0+debian1-3 [22,1 kB]
+0% [1 rbenv 0 B/22,1 kB 0%]                           100% [Trabalhando]                  Baixados 22,1 kB em 0s (70,2 kB/s)
+A seleccionar pacote anteriormente não seleccionado rbenv.
+(Lendo banco de dados ... (Lendo banco de dados ... 5%(Lendo banco de dados ... 10%(Lendo banco de dados ... 15%(Lendo banco de dados ... 20%(Lendo banco de dados ... 25%(Lendo banco de dados ... 30%(Lendo banco de dados ... 35%(Lendo banco de dados ... 40%(Lendo banco de dados ... 45%(Lendo banco de dados ... 50%(Lendo banco de dados ... 55%(Lendo banco de dados ... 60%(Lendo banco de dados ... 65%(Lendo banco de dados ... 70%(Lendo banco de dados ... 75%(Lendo banco de dados ... 80%(Lendo banco de dados ... 85%(Lendo banco de dados ... 90%(Lendo banco de dados ... 95%(Lendo banco de dados ... 100%(Lendo banco de dados ... 102115 ficheiros e directórios actualmente instalados.)
+A preparar para desempacotar .../rbenv_0.4.0+debian1-3_all.deb ...
+A descompactar rbenv (0.4.0+debian1-3) ...
+A processar 'triggers' para man-db (2.7.5-1) ...
+Configurando rbenv (0.4.0+debian1-3) ...
+robertvl@ubuntu:~/octopress$ sudo apt-get install rbenv[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+E: Não foi possível abrir arquivo de trava /var/lib/dpkg/lock - open (13: Permissão negada)
+E: Não foi possível criar acesso exclusivo ao directório de administração (/var/lib/dpkg/), é root?
+robertvl@ubuntu:~/octopress$ apt-get install rbenv[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Prbenv rehash
+robertvl@ubuntu:~/octopress$ bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies....
+Using rake 10.5.0
+Using RedCloth 4.2.9
+[32mInstalling addressable 2.4.0[0m
+[32mInstalling blankslate 2.1.2.4[0m
+[32mInstalling chunky_png 1.3.5[0m
+[32mInstalling fast-stemmer 1.0.2 with native extensions[0m
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using colorator 0.1
+[32mInstalling multi_json 1.12.1[0m
+Using sass 3.4.22
+Using rb-fsevent 0.9.7
+Using ffi 1.9.10
+Using multipart-post 2.0.0
+[32mInstalling tilt 2.0.5[0m
+Using jekyll-paginate 1.1.0
+Using kramdown 1.11.1
+[32mInstalling liquid 2.6.3[0m
+Using mercenary 0.3.6
+[32mInstalling posix-spawn 0.3.11 with native extensions[0m
+[32mInstalling yajl-ruby 1.2.1 with native extensions[0m
+Using redcarpet 3.3.4
+Using safe_yaml 1.0.4
+Using jekyll-sitemap 0.10.0
+[32mInstalling rack 1.6.4[0m
+[32mInstalling rdiscount 2.2.0.1 with native extensions[0m
+[32mInstalling stringex 1.4.0[0m
+Using bundler 1.11.2
+[32mInstalling parslet 1.5.0[0m
+[32mInstalling classifier-reborn 2.0.4[0m
+Using coffee-script 2.4.1
+[32mInstalling compass-core 1.0.3[0m
+[32mInstalling compass-import-once 1.0.5[0m
+Using jekyll-sass-converter 1.4.0
+[32mInstalling sass-globbing 1.0.0[0m
+Using rb-inotify 0.9.7
+Using faraday 0.9.2
+[32mInstalling haml 4.0.7[0m
+[32mInstalling pygments.rb 0.6.3[0m
+[32mInstalling rack-protection 1.5.3[0m
+[32mInstalling toml 0.1.2[0m
+Using jekyll-coffeescript 1.0.1
+[32mInstalling compass 1.0.3[0m
+Using listen 3.0.8
+[32mInstalling sawyer 0.7.0[0m
+[32mInstalling sinatra 1.4.7[0m
+Using jekyll-watch 1.4.0
+[32mInstalling octokit 4.3.0[0m
+[32mInstalling jekyll-gist 1.4.0[0m
+[32mInstalling jekyll 2.5.3[0m
+Using octopress-hooks 2.6.1
+[32mInstalling octopress-date-format 2.0.2[0m
+[32mBundle complete! 13 Gemfile dependencies, 52 gems now installed.[0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[32mPost-install message from haml:[0m
+
+HEADS UP! Haml 4.0 has many improvements, but also has changes that may break
+your application:
+
+* Support for Ruby 1.8.6 dropped
+* Support for Rails 2 dropped
+* Sass filter now always outputs <style> tags
+* Data attributes are now hyphenated, not underscored
+* html2haml utility moved to the html2haml gem
+* Textile and Maruku filters moved to the haml-contrib gem
+
+For more info see:
+
+http://rubydoc.info/github/haml/haml/file/CHANGELOG.md
+
+[32mPost-install message from compass:[0m
+    Compass is charityware. If you love it, please donate on our behalf at http://umdf.org/compass Thanks!
+robertvl@ubuntu:~/octopress$ rake install
+## Copying classic theme into ./source and ./sass
+mkdir -p source
+cp -r .themes/classic/source/. source
+mkdir -p sass
+cp -r .themes/classic/sass/. sass
+mkdir -p source/_posts
+mkdir -p public
+robertvl@ubuntu:~/octopress$ rake setup_github_pages
+Enter the read/write url for your repository
+(For example, 'git@github.com:your_username/your_username.github.io.git)
+           or 'https://github.com/your_username/your_username.github.io')
+Repository url: git@github.com:libotti/libotti.github.io.git
+Added remote git@github.com:libotti/libotti.github.io.git as origin
+Set origin as default remote
+Master branch renamed to 'source' for committing your blog source files
+rm -rf _deploy
+mkdir _deploy
+cd _deploy
+Initialized empty Git repository in /home/robertvl/octopress/_deploy/.git/
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'robertvl@ubuntu.(none)')
+cd -
+
+---
+## Now you can deploy to git@github.com:libotti/libotti.github.io.git with `rake deploy` ##
+robertvl@ubuntu:~/octopress$ git config --global user.email ¨::~::¨¨[K[1P¨[1P¨[1P¨[1P¨[C[K[K[K[K[K[K[K[K[K[K[K "robert.libotti@gmail.com"
+error: key does not contain a section: use
+robertvl@ubuntu:~/octopress$ git config --global use "robert.libotti@gmail.com"[C[Cr "robert.libotti@gmail.com" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. "robert.libotti@gmail.com""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+robertvl@ubuntu:~/octopress$ git config --global user.email "robert.libotti@gmaill.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "robert.libotti@gmail.[1Pcom"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "robert.libotti@gmail.c[1Pom"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "robert.libotti@gmail.co[1Pm"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "robert.libotti@gmail.com[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "robert.libotti@gmail.com"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce "robert.libotti@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KR[K"Robert Libotti"
+robertvl@ubuntu:~/octopress$ git config --global user.name "Robert Libotti"email "robert.libotti@gmaill.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "robert.libotti@gmail.com"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Prake setup_github_pages
+Enter the read/write url for your repository
+(For example, 'git@github.com:your_username/your_username.github.io.git)
+           or 'https://github.com/your_username/your_username.github.io')
+Repository url: ^Crake aborted!
+Interrupt: 
+/home/robertvl/octopress/Rakefile:379:in `gets'
+/home/robertvl/octopress/Rakefile:379:in `get_stdin'
+/home/robertvl/octopress/Rakefile:316:in `block in <top (required)>'
+Tasks: TOP => setup_github_pages
+(See full trace by running task with --trace)
+robertvl@ubuntu:~/octopress$ rake setup_github_pages[Krake generate
+## Generating Site with Jekyll
+[32mdirectory[0m source/stylesheets
+DEPRECATION WARNING on line 87 of /var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss: #{} interpolation near operators will be simplified
+in a future version of Sass. To preserve the current behavior, use quotes:
+
+  unquote('"$moz-"#{$experimental-support-for-mozilla} "$webkit-"#{$experimental-support-for-webkit} "$opera-"#{$experimental-support-for-opera} "$microsoft-"#{$experimental-support-for-microsoft} "$khtml-"#{$experimental-support-for-khtml}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+DEPRECATION WARNING on line 92 of /var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss: #{} interpolation near operators will be simplified
+in a future version of Sass. To preserve the current behavior, use quotes:
+
+  unquote('"$ie6-"#{$legacy-support-for-ie6} "$ie7-"#{$legacy-support-for-ie7} "$ie8-"#{$legacy-support-for-ie8}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+[32m    write[0m source/stylesheets/screen.css
+Configuration file: /home/robertvl/octopress/_config.yml
+            Source: source
+       Destination: public
+      Generating... 
+                    done.
+ Auto-regeneration: disabled. Use --watch to enable.
+robertvl@ubuntu:~/octopress$ rake deploy
+## Deploying branch to Github Pages 
+## Pulling any updates from Github Pages 
+cd _deploy
+The authenticity of host 'github.com (192.30.252.122)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.252.122' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+cd -
+rm -rf _deploy/index.html
+
+## Copying public to _deploy
+cp -r public/. _deploy
+cd _deploy
+
+## Committing: Site updated at 2016-06-18 20:04:45 UTC
+[master (root-commit) 22d2596] Site updated at 2016-06-18 20:04:45 UTC
+ 61 files changed, 1108 insertions(+)
+ create mode 100644 assets/jwplayer/glow/controlbar/background.png
+ create mode 100644 assets/jwplayer/glow/controlbar/blankButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/divider.png
+ create mode 100644 assets/jwplayer/glow/controlbar/fullscreenButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/fullscreenButtonOver.png
+ create mode 100644 assets/jwplayer/glow/controlbar/muteButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/muteButtonOver.png
+ create mode 100644 assets/jwplayer/glow/controlbar/normalscreenButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/normalscreenButtonOver.png
+ create mode 100644 assets/jwplayer/glow/controlbar/pauseButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/pauseButtonOver.png
+ create mode 100644 assets/jwplayer/glow/controlbar/playButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/playButtonOver.png
+ create mode 100644 assets/jwplayer/glow/controlbar/timeSliderBuffer.png
+ create mode 100644 assets/jwplayer/glow/controlbar/timeSliderCapLeft.png
+ create mode 100644 assets/jwplayer/glow/controlbar/timeSliderCapRight.png
+ create mode 100644 assets/jwplayer/glow/controlbar/timeSliderProgress.png
+ create mode 100644 assets/jwplayer/glow/controlbar/timeSliderRail.png
+ create mode 100644 assets/jwplayer/glow/controlbar/unmuteButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/unmuteButtonOver.png
+ create mode 100644 assets/jwplayer/glow/display/background.png
+ create mode 100644 assets/jwplayer/glow/display/bufferIcon.png
+ create mode 100644 assets/jwplayer/glow/display/muteIcon.png
+ create mode 100644 assets/jwplayer/glow/display/playIcon.png
+ create mode 100644 assets/jwplayer/glow/dock/button.png
+ create mode 100644 assets/jwplayer/glow/glow.xml
+ create mode 100644 assets/jwplayer/glow/playlist/item.png
+ create mode 100644 assets/jwplayer/glow/playlist/itemOver.png
+ create mode 100644 assets/jwplayer/glow/playlist/sliderCapBottom.png
+ create mode 100644 assets/jwplayer/glow/playlist/sliderCapTop.png
+ create mode 100644 assets/jwplayer/glow/playlist/sliderRail.png
+ create mode 100644 assets/jwplayer/glow/playlist/sliderThumb.png
+ create mode 100644 assets/jwplayer/glow/sharing/embedIcon.png
+ create mode 100644 assets/jwplayer/glow/sharing/embedScreen.png
+ create mode 100644 assets/jwplayer/glow/sharing/shareIcon.png
+ create mode 100644 assets/jwplayer/glow/sharing/shareScreen.png
+ create mode 100644 assets/jwplayer/player.swf
+ create mode 100644 atom.xml
+ create mode 100644 blog/archives/index.html
+ create mode 100644 favicon.png
+ create mode 100644 images/bird_32_gray.png
+ create mode 100644 images/bird_32_gray_fail.png
+ create mode 100644 images/code_bg.png
+ create mode 100644 images/dotted-border.png
+ create mode 100644 images/email.png
+ create mode 100644 images/line-tile.png
+ create mode 100644 images/noise.png
+ create mode 100644 images/rss.png
+ create mode 100644 images/search.png
+ create mode 100644 index.html
+ create mode 100644 javascripts/github.js
+ create mode 100644 javascripts/libs/jXHR.js
+ create mode 100644 javascripts/libs/jquery.min.js
+ create mode 100644 javascripts/libs/swfobject-dynamic.js
+ create mode 100644 javascripts/modernizr-2.0.js
+ create mode 100644 javascripts/octopress.js
+ create mode 100644 javascripts/pinboard.js
+ create mode 100644 javascripts/twitter.js
+ create mode 100644 robots.txt
+ create mode 100644 sitemap.xml
+ create mode 100644 stylesheets/screen.css
+
+## Pushing generated _deploy website
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+## Github Pages deploy complete
+cd -
+robertvl@ubuntu:~/octopress$ git add .
+robertvl@ubuntu:~/octopress$ git commit -m ''t'e's't'e'
+[source 35001e7] teste
+ 119 files changed, 2770 insertions(+), 3 deletions(-)
+ create mode 100644 sass/_base.scss
+ create mode 100644 sass/_partials.scss
+ create mode 100644 sass/base/_layout.scss
+ create mode 100644 sass/base/_solarized.scss
+ create mode 100644 sass/base/_theme.scss
+ create mode 100644 sass/base/_typography.scss
+ create mode 100644 sass/base/_utilities.scss
+ create mode 100644 sass/custom/_colors.scss
+ create mode 100644 sass/custom/_fonts.scss
+ create mode 100644 sass/custom/_layout.scss
+ create mode 100644 sass/custom/_styles.scss
+ create mode 100644 sass/partials/_archive.scss
+ create mode 100644 sass/partials/_blog.scss
+ create mode 100644 sass/partials/_footer.scss
+ create mode 100644 sass/partials/_header.scss
+ create mode 100644 sass/partials/_navigation.scss
+ create mode 100644 sass/partials/_sharing.scss
+ create mode 100644 sass/partials/_sidebar.scss
+ create mode 100644 sass/partials/_syntax.scss
+ create mode 100644 sass/partials/sidebar/_base.scss
+ create mode 100644 sass/partials/sidebar/_delicious.scss
+ create mode 100644 sass/partials/sidebar/_googleplus.scss
+ create mode 100644 sass/partials/sidebar/_pinboard.scss
+ create mode 100644 sass/plugins/_plugins.scss
+ create mode 100644 sass/screen.scss
+ create mode 100644 source/_includes/after_footer.html
+ create mode 100644 source/_includes/archive_post.html
+ create mode 100644 source/_includes/article.html
+ create mode 100644 source/_includes/asides/delicious.html
+ create mode 100644 source/_includes/asides/github.html
+ create mode 100644 source/_includes/asides/googleplus.html
+ create mode 100644 source/_includes/asides/pinboard.html
+ create mode 100644 source/_includes/asides/recent_posts.html
+ create mode 100644 source/_includes/custom/after_footer.html
+ create mode 100644 source/_includes/custom/asides/about.html
+ create mode 100644 source/_includes/custom/category_feed.xml
+ create mode 100644 source/_includes/custom/footer.html
+ create mode 100644 source/_includes/custom/head.html
+ create mode 100644 source/_includes/custom/header.html
+ create mode 100644 source/_includes/custom/navigation.html
+ create mode 100644 source/_includes/disqus.html
+ create mode 100644 source/_includes/facebook_like.html
+ create mode 100644 source/_includes/footer.html
+ create mode 100644 source/_includes/google_analytics.html
+ create mode 100644 source/_includes/google_plus_one.html
+ create mode 100644 source/_includes/head.html
+ create mode 100644 source/_includes/header.html
+ create mode 100644 source/_includes/navigation.html
+ create mode 100644 source/_includes/post/author.html
+ create mode 100644 source/_includes/post/categories.html
+ create mode 100644 source/_includes/post/date.html
+ create mode 100644 source/_includes/post/disqus_thread.html
+ create mode 100644 source/_includes/post/sharing.html
+ create mode 100644 source/_includes/twitter_sharing.html
+ create mode 100644 source/_layouts/category_index.html
+ create mode 100644 source/_layouts/default.html
+ create mode 100644 source/_layouts/page.html
+ create mode 100644 source/_layouts/post.html
+ create mode 100644 source/assets/jwplayer/glow/controlbar/background.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/blankButton.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/divider.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/fullscreenButton.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/fullscreenButtonOver.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/muteButton.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/muteButtonOver.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/normalscreenButton.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/normalscreenButtonOver.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/pauseButton.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/pauseButtonOver.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/playButton.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/playButtonOver.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/timeSliderBuffer.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/timeSliderCapLeft.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/timeSliderCapRight.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/timeSliderProgress.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/timeSliderRail.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/unmuteButton.png
+ create mode 100644 source/assets/jwplayer/glow/controlbar/unmuteButtonOver.png
+ create mode 100644 source/assets/jwplayer/glow/display/background.png
+ create mode 100644 source/assets/jwplayer/glow/display/bufferIcon.png
+ create mode 100644 source/assets/jwplayer/glow/display/muteIcon.png
+ create mode 100644 source/assets/jwplayer/glow/display/playIcon.png
+ create mode 100644 source/assets/jwplayer/glow/dock/button.png
+ create mode 100644 source/assets/jwplayer/glow/glow.xml
+ create mode 100644 source/assets/jwplayer/glow/playlist/item.png
+ create mode 100644 source/assets/jwplayer/glow/playlist/itemOver.png
+ create mode 100644 source/assets/jwplayer/glow/playlist/sliderCapBottom.png
+ create mode 100644 source/assets/jwplayer/glow/playlist/sliderCapTop.png
+ create mode 100644 source/assets/jwplayer/glow/playlist/sliderRail.png
+ create mode 100644 source/assets/jwplayer/glow/playlist/sliderThumb.png
+ create mode 100644 source/assets/jwplayer/glow/sharing/embedIcon.png
+ create mode 100644 source/assets/jwplayer/glow/sharing/embedScreen.png
+ create mode 100644 source/assets/jwplayer/glow/sharing/shareIcon.png
+ create mode 100644 source/assets/jwplayer/glow/sharing/shareScreen.png
+ create mode 100644 source/assets/jwplayer/player.swf
+ create mode 100644 source/atom.xml
+ create mode 100644 source/blog/archives/index.html
+ create mode 100644 source/favicon.png
+ create mode 100644 source/images/bird_32_gray.png
+ create mode 100644 source/images/bird_32_gray_fail.png
+ create mode 100644 source/images/code_bg.png
+ create mode 100644 source/images/dotted-border.png
+ create mode 100644 source/images/email.png
+ create mode 100644 source/images/line-tile.png
+ create mode 100644 source/images/noise.png
+ create mode 100644 source/images/rss.png
+ create mode 100644 source/images/search.png
+ create mode 100644 source/index.html
+ create mode 100644 source/javascripts/github.js
+ create mode 100644 source/javascripts/libs/jXHR.js
+ create mode 100644 source/javascripts/libs/jquery.min.js
+ create mode 100644 source/javascripts/libs/swfobject-dynamic.js
+ create mode 100644 source/javascripts/modernizr-2.0.js
+ create mode 100644 source/javascripts/octopress.js
+ create mode 100644 source/javascripts/pinboard.js
+ create mode 100644 source/javascripts/twitter.js
+ create mode 100644 source/robots.txt
+robertvl@ubuntu:~/octopress$ git push origin source
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+robertvl@ubuntu:~/octopress$ rake generate
+## Generating Site with Jekyll
+[32m    write[0m source/stylesheets/screen.css
+Configuration file: /home/robertvl/octopress/_config.yml
+            Source: source
+       Destination: public
+      Generating... 
+                    done.
+ Auto-regeneration: disabled. Use --watch to enable.
+robertvl@ubuntu:~/octopress$ rake deploy
+## Deploying branch to Github Pages 
+## Pulling any updates from Github Pages 
+cd _deploy
+Warning: Permanently added the RSA host key for IP address '192.30.252.123' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+cd -
+rm -rf _deploy/favicon.png
+rm -rf _deploy/stylesheets
+rm -rf _deploy/images
+rm -rf _deploy/blog
+rm -rf _deploy/index.html
+rm -rf _deploy/atom.xml
+rm -rf _deploy/sitemap.xml
+rm -rf _deploy/robots.txt
+rm -rf _deploy/assets
+rm -rf _deploy/javascripts
+
+## Copying public to _deploy
+cp -r public/. _deploy
+cd _deploy
+
+## Committing: Site updated at 2016-06-18 20:08:12 UTC
+[master 6cce291] Site updated at 2016-06-18 20:08:12 UTC
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+## Pushing generated _deploy website
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access
