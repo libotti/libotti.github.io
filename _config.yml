@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
+title: Robert Libotti
+locale: pt_BR
 description: Describe your website here.
 logo: site-logo.png
 search: true
@@ -36,13 +36,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Robert Libotti
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: robert.libotti@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: libotti
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
