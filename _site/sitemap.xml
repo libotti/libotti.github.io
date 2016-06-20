@@ -1,119 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/blog/mathjax-example/</loc>
-<lastmod>2015-08-10T09:08:50-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//blog/mathjax-example/</loc>
-<lastmod>2015-08-10T09:08:50-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/blog/hello-world/</loc>
-<lastmod>2014-08-08T16:39:55-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//blog/hello-world/</loc>
-<lastmod>2014-08-08T16:39:55-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/author-override/</loc>
-<lastmod>2014-06-19T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/author-override/</loc>
-<lastmod>2014-06-19T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/code-highlighting-post/</loc>
-<lastmod>2013-08-16T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/code-highlighting-post/</loc>
-<lastmod>2013-08-16T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/sample-link-post/</loc>
-<lastmod>2013-08-12T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/sample-link-post/</loc>
-<lastmod>2013-08-12T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/video-post/</loc>
-<lastmod>2013-06-25T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/video-post/</loc>
-<lastmod>2013-06-25T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/readability-feature-post/</loc>
-<lastmod>2013-05-23T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/readability-feature-post/</loc>
-<lastmod>2013-05-23T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/sample-post-images/</loc>
-<lastmod>2013-05-22T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/sample-post-images/</loc>
-<lastmod>2013-05-22T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/readability-post/</loc>
-<lastmod>2012-05-22T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/readability-post/</loc>
-<lastmod>2012-05-22T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/sample-post/</loc>
-<lastmod>2011-03-10T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/sample-post/</loc>
-<lastmod>2011-03-10T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//about/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/about/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/articles/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/blog/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//tags/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/theme-setup/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//blog/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//articles/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//theme-setup/</loc>
-</url>
-<url>
-<loc>http://blog.libotti.com//so-simple-theme-master/tags/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://libotti.github.io//</loc>
+    <lastmod>2016-06-20T00:57:13-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>http://libotti.github.io//post1.html</loc>
+      
+        <lastmod>2013-06-05T00:00:00-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://libotti.github.io//post2.html</loc>
+      
+        <lastmod>2013-05-27T00:00:00-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://libotti.github.io//post3.html</loc>
+      
+        <lastmod>2013-04-02T00:00:00-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://libotti.github.io//post4.html</loc>
+      
+        <lastmod>2013-03-15T00:00:00-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://libotti.github.io//post5.html</loc>
+      
+        <lastmod>2013-02-10T00:00:00-02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://libotti.github.io//post6.html</loc>
+      
+        <lastmod>2013-01-24T00:00:00-02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://libotti.github.io//post7.html</loc>
+      
+        <lastmod>2012-11-04T00:00:00-02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+  
+  <url>
+    <loc>http://libotti.github.io//404</loc>
+    
+      <lastmod>2016-06-20T00:57:13-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//atom.xml</loc>
+    
+      <lastmod>2016-06-20T00:57:13-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//blog</loc>
+    
+      <lastmod>2016-06-20T00:57:13-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//</loc>
+    
+      <lastmod>2016-06-20T00:57:13-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//projects</loc>
+    
+      <lastmod>2016-06-20T00:57:13-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//sitemap.xml</loc>
+    
+      <lastmod>2016-06-20T00:57:13-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
 </urlset>
