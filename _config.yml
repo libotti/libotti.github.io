@@ -18,12 +18,12 @@ author: Robert Libotti
 description: Blog Pessoal e Currículo
 avatar: profile.png
 email: robert.libotti@gmail.com
-github: libotti # username
-twitter: libotti
-linkedin: libotti
+github:  # username
+twitter:
+linkedin:
 stackoverflow:    #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
-disqus: libotti
+disqus: 
 google_analytics: UA-69391421-1
 
 # edit this section with your information
@@ -32,17 +32,17 @@ google_analytics: UA-69391421-1
 name: Robert Libotti
 email: robert.libotti@gmail.com
 email_full: mailto:robert.libotti@gmail.com
-website: github.io/libotti
+website: libotti.com
 website_full: http://libotti.com
-github: trending
-twitter: twitter
+github:
+twitter:
 tel: +55 21 99670-4670
 tel_full: tel:+5521996704670
 google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
-address: 44 Perth Street
-postcode: EH3 5BL
+address:
+postcode:
 city: Rio de Janeiro
-country: Brazil
+country: Brasil
 
 
 
