@@ -1,0 +1,17 @@
+---
+layout: home
+---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>Olá! Meu nome é <strong>{{ site.author }}</strong> e sou Analista de Sistemas/Gestor de TI.</h3>
+	  
+	  <h3>Veja um pouco sobre <a href="{{ site.baseurl }}/projects.html"> meus projetos</a>.</h3>
+	  <h3>Para maiores informações sobre minha vida acadêmica e profissional <a href="/vitae"> meu currículo</a>.</h3>
+	  <h3>Fale comigo <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> ou por <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>
