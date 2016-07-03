@@ -6,16 +6,38 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Robert Libotti
+name: Robert Libotti
+author: Robert Libotti
+description: Blog Pessoal e Currículo
+avatar: profile.png
+email: robert.libotti@gmail.com
+email_full: mailto:robert.libotti@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://libotti.github.io/" # the base hostname & protocol for your site
+website: libotti.com
+website_full: http://libotti.com
+tel: +55 21 99670-4670
+tel_full: tel:+5521996704670
+google_maps: 'https://www.google.com.br/maps/place/Vila+Isabel,+Rio+de+Janeiro+-+RJ/@-22.9174925,-43.2635995,13.75z/data=!4m5!3m4!1s0x997e77037014d5:0xaedc46e3e6d18a9a!8m2!3d-22.9167328!4d-43.2508337'
+address: Vila Isabel
+postcode:
+city: Rio de Janeiro
+country: Brasil
+
+twitter:
+twitter_username: libotti
+github: libotti # username
+github_username:  libotti
+linkedin:
+stackoverflow:    #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus
+#disqus:
+google_analytics: UA-69391421-1
 
 # Build settings
 markdown: kramdown
@@ -26,35 +48,10 @@ port: 3000
 safe: true
 
 # edit here to achieve your personal greatness
-url: http://libotti.github.io/
-baseurl: /
-title: Robert Libotti
-author: Robert Libotti
-description: Blog Pessoal e Currículo
-avatar: profile.png
-email: robert.libotti@gmail.com
-github:  # username
-twitter:
-linkedin:
-stackoverflow:    #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus
-disqus: 
-google_analytics: UA-69391421-1
+
+
+
 
 # edit this section with your information
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-name: Robert Libotti
-email: robert.libotti@gmail.com
-email_full: mailto:robert.libotti@gmail.com
-website: libotti.com
-website_full: http://libotti.com
-github:
-twitter:
-tel: +55 21 99670-4670
-tel_full: tel:+5521996704670
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
-address:
-postcode:
-city: Rio de Janeiro
-country: Brasil

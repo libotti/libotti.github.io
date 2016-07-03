@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://libotti.github.io//</loc>
+    <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>http://libotti.github.io//coisas-que-aprendi-estudando-pra-70480.html</loc>
+      
+        <lastmod>2016-06-24T01:00:22-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://libotti.github.io//welcome-to-jekyll.html</loc>
+      
+        <lastmod>2016-06-22T16:49:22-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+  
+  <url>
+    <loc>http://libotti.github.io//404</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//atom.xml</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//blog</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//feed.xml</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//vitae/</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//css/main.css</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//projects</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://libotti.github.io//sitemap.xml</loc>
+    
+      <lastmod>2016-07-03T01:28:16-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+</urlset>
