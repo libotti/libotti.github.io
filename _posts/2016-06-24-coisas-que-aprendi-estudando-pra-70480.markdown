@@ -2,7 +2,8 @@
 layout: post
 title:  "Coisas que aprendi estudando para 70-480 - Part 1"
 date:   2016-06-24 01:00:22 -0300
-categories: microsoft mcsd 70480
+categories: microsoft mcsd 70-480
+tags: microsoft, mcsd, 70-480
 ---
 <p>
 Coisas interessantes acontecem quando se resolve estudar algo que você já faz todos os dias:

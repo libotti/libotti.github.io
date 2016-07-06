@@ -142,3 +142,16 @@ footer p {
     margin-bottom: 10px;
     font-size: 10pt;
 }
+
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.atividadesdesenvolvidas {
+  font-style: italic;
+  border-left: 3px solid green;
+  background-color: #fff;
+  margin:5px 0px 0px 5px;
+  padding:5px 5px 5px 10px;
+}

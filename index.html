@@ -21,9 +21,18 @@ layout: home
 		          {% include lastposts.html %}
 		        </div>
 		        <div class="col-md-4" style="text-align:left">
-		          <h2>Heading</h2>
-		          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-		          <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+
+							<h2>Tags</h2>
+							{% assign tags = site.tags | sort %}
+							{% for tag in tags %}
+							 <span class="site-tag">
+							    <a href="/tag/{{ tag | first | slugify }}/"
+							        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+							            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+							    </a>
+							</span>
+							{% endfor %}
+
 					 </div>
 		        <div class="col-md-4" style="text-align:left">
 							<h2>Tags</h2>
